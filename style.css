@@ -17,15 +17,27 @@
 }
 
 * {
-     margin: 0;
-     padding: 0;
+     margin: 0 16px;
+     padding: 24px 0;
 }
 
 .imagem-escola{
-     width: 20%
+     width: 25%
 }
 
 .escola{
      background-image: linear-gradient(#b061e6,#eb5fac);
      color:white;
+     display: flex;
+     justify-content: center;
+}
+
+
+.escola-conteudo {
+     width: 35%;
+     align-items: center;
+
+}
+body{
+     font-family: 'Poppins', sans-serif;
 }
